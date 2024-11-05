@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Monolog_app/static/css/main.9d4787b9.css",
-    "main.js": "/Monolog_app/static/js/main.6462d0f9.js",
+    "main.js": "/Monolog_app/static/js/main.297b11e4.js",
     "static/media/image.png": "/Monolog_app/static/media/image.d287158f5be9e6bfd0f5.png",
     "index.html": "/Monolog_app/index.html",
     "main.9d4787b9.css.map": "/Monolog_app/static/css/main.9d4787b9.css.map",
-    "main.6462d0f9.js.map": "/Monolog_app/static/js/main.6462d0f9.js.map"
+    "main.297b11e4.js.map": "/Monolog_app/static/js/main.297b11e4.js.map"
   },
   "entrypoints": [
     "static/css/main.9d4787b9.css",
-    "static/js/main.6462d0f9.js"
+    "static/js/main.297b11e4.js"
   ]
 }
