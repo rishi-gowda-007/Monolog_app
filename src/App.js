@@ -29,14 +29,16 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <Nav/>
+      <main>
+      
         <Routes>
-          <Route path="/" element={<Nav />}>
-            <Route index path='/' element={<Home form={form} sendEmail={sendEmail} setData={setData} />} />
+            <Route index element={<Home form={form} sendEmail={sendEmail} setData={setData} />} />
             <Route path='MessageHistory' element={<MessageHistory data={data} />} />
-          </Route>
+          
         </Routes>
-      </BrowserRouter>
+  
+      </main>
     </div>
   );
 }

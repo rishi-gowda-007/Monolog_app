@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './nav.css';
-import { Outlet, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   const [hamvisi, Sethamvisi] = useState(true); // Start with the menu hidden
@@ -31,12 +31,11 @@ function Nav() {
       <div id='nav_logo'></div>
       <div id='anchor_panel' style={ham_style}>
         <Link to='/' className='nav-link'>Home</Link>
-        <a href='https://www.emailjs.com/docs/' className='nav-link' target='_blank' rel='noopener noreferrer'>Docs</a>
+        <a href='https://www.emailjs.com/docs/' className='nav-link' target='_blank'>Docs</a>
         <Link to='/MessageHistory' className='nav-link'>MessageHistory</Link>
         <button id='nav_hamburger_close' onClick={toggle}>X</button>
       </div>
       <button id='nav_hamburger' onClick={toggle}>☰</button>
-      <Outlet />
     </div>
   );
 }
