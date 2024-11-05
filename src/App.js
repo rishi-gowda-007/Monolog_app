@@ -33,7 +33,7 @@ function App() {
       <main>
       
         <Routes>
-            <Route path='Monolog_app' element={<Home form={form} sendEmail={sendEmail} setData={setData} />} />
+            <Route path='/Monolog_app/' element={<Home form={form} sendEmail={sendEmail} setData={setData} />} />
             <Route path='MessageHistory' element={<MessageHistory data={data} />} />
           
         </Routes>

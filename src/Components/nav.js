@@ -30,7 +30,7 @@ function Nav() {
     <div id='nav_main'>
       <div id='nav_logo'></div>
       <div id='anchor_panel' style={ham_style}>
-        <Link to='/' className='nav-link'>Home</Link>
+        <Link to='/Monolog_app/' className='nav-link'>Home</Link>
         <a href='https://www.emailjs.com/docs/' className='nav-link' target='_blank'>Docs</a>
         <Link to='/MessageHistory' className='nav-link'>MessageHistory</Link>
         <button id='nav_hamburger_close' onClick={toggle}>X</button>
