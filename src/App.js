@@ -32,8 +32,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Nav />}>
-            <Route index element={<Home form={form} sendEmail={sendEmail} setData={setData} />} />
-            <Route path='/MessageHistory' element={<MessageHistory data={data} />} />
+            <Route index path='/' element={<Home form={form} sendEmail={sendEmail} setData={setData} />} />
+            <Route path='MessageHistory' element={<MessageHistory data={data} />} />
           </Route>
         </Routes>
       </BrowserRouter>
