@@ -33,7 +33,7 @@ function App() {
       <main>
       
         <Routes>
-            <Route index element={<Home form={form} sendEmail={sendEmail} setData={setData} />} />
+            <Route path='/' element={<Home form={form} sendEmail={sendEmail} setData={setData} />} />
             <Route path='MessageHistory' element={<MessageHistory data={data} />} />
           
         </Routes>
