@@ -1,0 +1,48 @@
+#mh_main{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    position: absolute;
+    top: 5vw;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2vw;
+    background-color: rgb(237, 236, 236);
+    z-index: 0;
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+}
+  
+th, td{
+    padding: 10px; 
+    border: 1px solid #bab8b8;
+}
+  
+th{
+    background-color: #9b9999; 
+}
+  
+td{
+    text-align: left; 
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    #mh_main{
+        min-height: 100vh;
+        width: 100vw;
+        top: 6vw;
+        font-size: 1.4vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #mh_main{
+        min-height: 100vh;
+        width: 100vw;
+        top: 10vw;
+        font-size: 1.8vw;
+    }
+}
